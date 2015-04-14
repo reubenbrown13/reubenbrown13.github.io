@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Tech | Reuben's Journal]]></title>
   <link href="http://reubenbrown13.github.io/blog/categories/tech/atom.xml" rel="self"/>
   <link href="http://reubenbrown13.github.io/"/>
-  <updated>2015-04-14T09:36:24-05:00</updated>
+  <updated>2015-04-14T17:42:12-05:00</updated>
   <id>http://reubenbrown13.github.io/</id>
   <author>
     <name><![CDATA[Reuben Brown]]></name>
@@ -18,7 +18,7 @@
     <link href="http://reubenbrown13.github.io/blog/2015/04/14/octopress-install-notes/"/>
     <updated>2015-04-14T09:05:19-05:00</updated>
     <id>http://reubenbrown13.github.io/blog/2015/04/14/octopress-install-notes</id>
-    <content type="html"><![CDATA[<p>While searching for help on a project I am working on, I noticed one of my <a href="http://seancorfield.github.io/" target="_new">peers</a> had changed their blogging platform over to <a href="http://octopress.org/" target="_new">Octopress</a>.  I have used several systems in the past but always desired to have a certain level of control.  I loathed the idea of using WordPress and having a blog hosted on their servers.  The idea of using something so nerd-centric really appealed to me.  The install and setup guide looked like a very simple thing to follow.  This proved to be mostly true&#8230;.</p>
+    <content type="html"><![CDATA[<p>While searching for help on a project I am working on, I noticed one of my <a href="http://seancorfield.github.io/" target="_new">peers</a>, tho I hesitate to say that I am even in the same class of developer that he is, had changed their blogging platform over to <a href="http://octopress.org/" target="_new">Octopress</a>.  I have used several systems in the past but always desired to have a certain level of control.  I loathed the idea of using WordPress and having a blog hosted on their servers.  The idea of using something so nerd-centric really appealed to me.  The install and setup guide looked like a very simple thing to follow.  This proved to be mostly true&#8230;.</p>
 
 
 <!-- more -->
