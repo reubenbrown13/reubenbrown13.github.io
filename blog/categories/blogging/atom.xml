@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Blogging | Reuben's Journal]]></title>
   <link href="http://reubenbrown13.github.io/blog/categories/blogging/atom.xml" rel="self"/>
   <link href="http://reubenbrown13.github.io/"/>
-  <updated>2015-04-14T09:26:09-05:00</updated>
+  <updated>2015-04-14T09:36:24-05:00</updated>
   <id>http://reubenbrown13.github.io/</id>
   <author>
     <name><![CDATA[Reuben Brown]]></name>
@@ -34,6 +34,9 @@
 
 
 <p>These notes are of great benefit to me, and if they help anyone else awesome.</p>
+
+
+<p>BOOT NOTE: if you ever have the issue when running &#8220;rake deploy&#8221; where it throws an error saying &#8220;! [rejected] master -> master (non-fast-forward)&#8221; the fix is quite simple (Thank you <a href="http://stackoverflow.com/questions/17609453/rake-gen-deploy-rejected-in-octopress">StackOverflow</a>.<br />Just do the following:<br /><code>cd octopress/_deploy<br />git pull origin master<br />cd ..<br />rake deploy</code></p>
 
 ]]></content>
   </entry>
