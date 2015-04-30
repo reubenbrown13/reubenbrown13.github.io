@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://reubenbrown13.github.io/blog/2015/04/30/samsung-galaxy-s4-l720-unlock-notes/</loc>
+    <lastmod>2015-04-30T17:28:32-05:00</lastmod>
+  </url>
+  <url>
     <loc>http://reubenbrown13.github.io/blog/2015/04/14/octopress-install-notes/</loc>
     <lastmod>2015-04-14T09:05:19-05:00</lastmod>
   </url>
@@ -24,5 +28,14 @@
   </url>
   <url>
     <loc>http://reubenbrown13.github.io/blog/categories/blogging/</loc>
+  </url>
+  <url>
+    <loc>http://reubenbrown13.github.io/blog/categories/android/</loc>
+  </url>
+  <url>
+    <loc>http://reubenbrown13.github.io/blog/categories/cell-phones/</loc>
+  </url>
+  <url>
+    <loc>http://reubenbrown13.github.io/blog/categories/roms/</loc>
   </url>
 </urlset>

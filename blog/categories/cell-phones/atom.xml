@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Reuben's Journal]]></title>
-  <link href="http://reubenbrown13.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Cell Phones | Reuben's Journal]]></title>
+  <link href="http://reubenbrown13.github.io/blog/categories/cell-phones/atom.xml" rel="self"/>
   <link href="http://reubenbrown13.github.io/"/>
   <updated>2015-04-30T18:32:23-05:00</updated>
   <id>http://reubenbrown13.github.io/</id>
@@ -34,34 +34,6 @@
 
 
 <p>From what I can see in the forums is that LTE might not work, but I am used to only have HSPA access and don&#8217;t use mobile data all that often since I am using H2O wireless which is an ATT MVNO.  I did have to configure my APN for H2O manually.  I used the <a href="http://www.wikihow.com/Add-H2O-Wireless-to-an-Android-Phone">settings from wikiHow.com</a> to get the data and mms working.  Over all, I am very pleased so far with the phone and it is running quite cool since it was updated to GPE.</p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Octopress Install Notes]]></title>
-    <link href="http://reubenbrown13.github.io/blog/2015/04/14/octopress-install-notes/"/>
-    <updated>2015-04-14T09:05:19-05:00</updated>
-    <id>http://reubenbrown13.github.io/blog/2015/04/14/octopress-install-notes</id>
-    <content type="html"><![CDATA[<p>While searching for help on a project I am working on, I noticed one of my <a href="http://seancorfield.github.io/" target="_new">peers</a>, tho I hesitate to say that I am even in the same class of developer that he is, had changed their blogging platform over to <a href="http://octopress.org/" target="_new">Octopress</a>.  I have used several systems in the past but always desired to have a certain level of control.  I loathed the idea of using WordPress and having a blog hosted on their servers.  The idea of using something so nerd-centric really appealed to me.  The install and setup guide looked like a very simple thing to follow.  This proved to be mostly true&#8230;.</p>
-
-
-<!-- more -->
-
-
-<p>When following the <a href="http://octopress.org/docs/setup/" target="_new">Setup Guide</a>, there are several steps that must be done in the proper order.  The guide is well laid out and easy to read.  On my Ubuntu powered workstation I installed what I thought were all the required packages.  I discovered after the fact that to get Octopress to work on Ubuntu, you must install Node.JS as your javascript engine or else it doesn&#8217;t work.  I tried to use &#8216;therubyracer&#8217; first but it didn&#8217;t allow me to generate the pages.</p>
-
-
-<p>The second snag I hit was trying to get the order right for using <a href="http://octopress.org/docs/deploying/github/" target="_new">Github Pages</a>.   Where this got confusing to me was that the Octopress guide is clear, but when you setup the github pages repo, Github tells you to clone it.  You do not want to do this.  You want to stay in the Octopress folder you setup and follow the guide to setup the pages and generate the site.  If it fails to work you can always delete the site and recreate it since you have not saved anything there yet.</p>
-
-
-<p>The last thing I would recommend is to update the _config.yml file right away before you generate the pages for the first time.  Get things setup nice and clean for yourself.  You might even want to preview the content prior to doing the the first &#8220;rake deploy&#8221; by using &#8220;rake preview&#8221; and opening your browser to localhost:4000.</p>
-
-
-<p>These notes are of great benefit to me, and if they help anyone else awesome.</p>
-
-
-<p>BOOT NOTE: if you ever have the issue when running &#8220;rake deploy&#8221; where it throws an error saying &#8220;! [rejected] master -> master (non-fast-forward)&#8221; the fix is quite simple (Thank you <a href="http://stackoverflow.com/questions/17609453/rake-gen-deploy-rejected-in-octopress">StackOverflow</a>.<br />Just do the following:<br /><code>cd octopress/_deploy<br />git pull origin master<br />cd ..<br />rake deploy</code></p>
 
 ]]></content>
   </entry>

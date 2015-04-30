@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Tech | Reuben's Journal]]></title>
   <link href="http://reubenbrown13.github.io/blog/categories/tech/atom.xml" rel="self"/>
   <link href="http://reubenbrown13.github.io/"/>
-  <updated>2015-04-15T10:40:58-05:00</updated>
+  <updated>2015-04-30T18:32:23-05:00</updated>
   <id>http://reubenbrown13.github.io/</id>
   <author>
     <name><![CDATA[Reuben Brown]]></name>
@@ -12,6 +12,31 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Samsung Galaxy S4 L720 Unlock Notes]]></title>
+    <link href="http://reubenbrown13.github.io/blog/2015/04/30/samsung-galaxy-s4-l720-unlock-notes/"/>
+    <updated>2015-04-30T17:28:32-05:00</updated>
+    <id>http://reubenbrown13.github.io/blog/2015/04/30/samsung-galaxy-s4-l720-unlock-notes</id>
+    <content type="html"><![CDATA[<p>I was recently given a Samsung Galaxy S4 for Sprint to help refurbish because the owner was having issues with it running hot all the time.  I searched the internet and found this to be a common issue that is resolved by turning off everything you can and putting the device into power saving mode.  This is not ideal, but it did help the phone to not get so hot some of the time.  The core issue turned out to be the Samsung TouchWiz system is a bit of a CPU hog.  After using stock AOSP, CM, and other ROMs based on AOSP it is hard for me to see what there is to like about TouchWiz.  It&#8217;s ugly and clunky in my opinion.  So the hut began for an alternative.</p>
+
+
+<!-- more -->
+
+
+<p>I found several <a href="http://forum.xda-developers.com/galaxy-s4-sprint/#romList">ROMS</a> to choose from in the <a href="http://forum.xda-developers.com/">XDA-Developers forum</a> dedicated to the S4 for Sprint.  After much trial and error I decided to use the <a href="http://forum.xda-developers.com/showthread.php?t=3026930">AICP ROM</a> to start with since it would give me the latest release.  This worked well until I discovered that the S4 can be unlocked to work on <a href="http://forum.xda-developers.com/showthread.php?t=2530610">domestic GSM networks</a>.</p>
+
+
+<p>I followed the guide using a non-stock TouchWiz ROM since I had already wiped out the original ROM.  Everything seemed to be working except I could not fully make or receive phone calls.  I tried then flashing several other ROMs, but could never get it to fully work.  I then went to the <a href="http://galaxys4root.com/">galaxys4root.com</a> site to download the latest <a href="http://galaxys4root.com/galaxy-s4-stock-firmware/">KitKat Rom</a> for the L720.  I used Odin to flash it and booted the system to see what would happen.  After much waiting on the first flash, I had to reboot the phone a couple times to get everything to load.  There were some errors showing on the screen, but I was able to load the phone dialer and make a call!  This was quite exciting, but I was worried that I was going to be stuck with a broken TouchWiz system.  I decided to then try one more thing.</p>
+
+
+<p>I downloaded the <a href="http://forum.xda-developers.com/galaxy-s4-sprint/development/rom-5-0google-play-edition-lrx219-12-24-t2982384">Google Play Edition ROM</a> and installed it using <a href="http://twrp.me/devices/samsunggalaxys4sprint.html">TWRP</a> which I had installed using <a href="http://www.webupd8.org/2012/06/heimdall-odin-alternative-that-runs-on.html">heimdall</a> (sudo heimdall flash &#8211;RECOVERY recovery.img).  Once the GPE ROM was setup and installed, there were no more errors and tons of Lollipop goodness to be enjoyed.  The GPE ROM has an OTA feature that helps keep things updated and has additional packages that can be baked into the ROM like ad blocking.  I tested my phone call situation, and things are working GREAT.  All functions of the phone seem to work without issue.</p>
+
+
+<p>From what I can see in the forums is that LTE might not work, but I am used to only have HSPA access and don&#8217;t use mobile data all that often since I am using H2O wireless which is an ATT MVNO.  I did have to configure my APN for H2O manually.  I used the <a href="http://www.wikihow.com/Add-H2O-Wireless-to-an-Android-Phone">settings from wikiHow.com</a> to get the data and mms working.  Over all, I am very pleased so far with the phone and it is running quite cool since it was updated to GPE.</p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Octopress Install Notes]]></title>
