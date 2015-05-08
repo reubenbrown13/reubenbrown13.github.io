@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Category: Octopress - Reuben&#8217;s Journal</title>
+  <title>Samsung Galaxy S4 L720 Unlock Notes Update - Reuben&#8217;s Journal</title>
   <meta name="author" content="Reuben Brown">
 
   
-  <meta name="description" content="Category: octopress">
+  <meta name="description" content="Last week I documented how to get a Samsung Galaxy S4 L720 (Sprint) phone working on Domestic GMS networks. After a week of using the Google Play &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://reubenbrown13.github.io/blog/categories/octopress">
+  <link rel="canonical" href="http://reubenbrown13.github.io/blog/2015/05/08/samsung-galaxy-s4-l720-unlock-notes-update">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Reuben's Journal" type="application/atom+xml">
@@ -73,35 +73,107 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Category: Octopress</h1>
+    
+      <h1 class="entry-title">Samsung Galaxy S4 L720 Unlock Notes Update</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-05-08T08:41:58-05:00" pubdate data-updated="true"></time>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives" class="category">
 
 
-
-  
-  <h2>2015</h2>
-
-<article>
-  
-<h1><a href="/blog/2015/04/14/octopress-install-notes/">Octopress Install Notes</a></h1>
-<time datetime="2015-04-14T09:05:19-05:00" pubdate><span class='month'>Apr</span> <span class='day'>14</span> <span class='year'>2015</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/blogging/'>blogging</a>, <a class='category' href='/blog/categories/internet/'>internet</a>, <a class='category' href='/blog/categories/octopress/'>octopress</a>, <a class='category' href='/blog/categories/tech/'>tech</a></span>
-</footer>
+<div class="entry-content"><p>Last week <a href="/blog/2015/04/30/samsung-galaxy-s4-l720-unlock-notes/">I documented</a> how to get a <a href="http://forum.xda-developers.com/galaxy-s4-sprint/">Samsung Galaxy S4 L720 (Sprint)</a> phone working on Domestic GMS networks.  After a week of using the <a href="http://forum.xda-developers.com/galaxy-s4-sprint/development/rom-5-0google-play-edition-lrx219-12-24-t2982384">Google Play Edition ROM</a> for the <a href="http://forum.xda-developers.com/galaxy-s4-sprint/">Samsung Galaxy S4 L720 (Sprint)</a> phone, I can report that I am quite pleased with it.</p>
 
 
-</article>
+<!-- more -->
+
+
+<p>Since then I have found out that I can indeed install CM 12.1 based ROMs on this device and have it use the GSM networks by default.  I was looking into how to make the change in the phone and found a <a href="http://forum.xda-developers.com/showpost.php?p=55686731&postcount=74">post on XDA<a/> that gave me the final trick.  Before this I had tried to use the dialer ( #*#*4636*#*# ) to get to the test screen and make the change, but that would never stick.  I tried making the change in the network settings from LTE to GSM, but again it would not work.  The phone always ended up back on Sprint.</p>
+
+
+<p>The other feature that I desired was to be able to use the F2FS filesystem for the cache and data partitions.  F2FS is a fast filesystem that was built for Flash storage and is much more efficient than ext4.  The only issue is that the <a href="http://forum.xda-developers.com/galaxy-s4-sprint/development/rom-5-0google-play-edition-lrx219-12-24-t2982384">Google Play Edition ROM</a> doesn&#8217;t support F2FS yet.  To get the best of both worlds I had to change to a <a href="http://forum.xda-developers.com/galaxy-s4/i9505-orig-develop/exclusive-antaresone-alucard24-s-t3066696">unified CM 12.1 ROM for jflte</a>, with the added bonus of moving to android <a href="http://forum.xda-developers.com/galaxy-s4/i9505-orig-develop/exclusive-antaresone-alucard24-s-t3066696">5.1.1</a>, and change a setting in the /META-INF/com/google/android/updater-script so that the L720 uses the GSM network instead of CDMA.</p>
+
+
+<p>I would imagine that any jflte unified ROM would work, I have yet to try it.  To also get the F2FS system working, I updated to <a href="https://www.androidfilehost.com/?fid=95916177934546651">TWRP 2.8.6.0</a> as per the instructions in the <a href="http://forum.xda-developers.com/galaxy-s4/i9505-orig-develop/exclusive-antaresone-alucard24-s-t3066696">AntaresOne CM12.1</a> forum.  This ROM is working well for me, tho I did experience an error with google services that is preventing the device from syncing mail and calender items right now.  I will need to re-flash things and see if I can get it sorted out.  The last thing I need to do is copy all the files from the /data partition to the external SD card and then reformat it as F2FS.</p>
+
+
+<p>Once this is done, I will document the final results.</p>
+
+
+<p>I hope these notes are a help to someone else and it makes their life just a little easier.  Happy Flashing.</p>
 
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Reuben Brown</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-05-08T08:41:58-05:00" pubdate data-updated="true"></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/android/'>android</a>, <a class='category' href='/blog/categories/cell-phones/'>cell phones</a>, <a class='category' href='/blog/categories/roms/'>roms</a>, <a class='category' href='/blog/categories/tech/'>tech</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://reubenbrown13.github.io/blog/2015/05/08/samsung-galaxy-s4-l720-unlock-notes-update/" data-via="" data-counturl="http://reubenbrown13.github.io/blog/2015/05/08/samsung-galaxy-s4-l720-unlock-notes-update/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2015/04/30/samsung-galaxy-s4-l720-unlock-notes/" title="Previous Post: Samsung Galaxy S4 l720 Unlock Notes">&laquo; Samsung Galaxy S4 l720 Unlock Notes</a>
+      
+      
+    </p>
+  </footer>
 </article>
 
 </div>
