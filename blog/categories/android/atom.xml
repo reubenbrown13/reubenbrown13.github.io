@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Android | Reuben's Journal]]></title>
   <link href="http://reubenbrown13.github.io/blog/categories/android/atom.xml" rel="self"/>
   <link href="http://reubenbrown13.github.io/"/>
-  <updated>2015-05-08T15:30:00-05:00</updated>
+  <updated>2015-05-08T21:53:47-05:00</updated>
   <id>http://reubenbrown13.github.io/</id>
   <author>
     <name><![CDATA[Reuben Brown]]></name>
@@ -30,7 +30,10 @@
 <p>The other feature that I desired was to be able to use the F2FS filesystem for the cache and data partitions.  F2FS is a fast filesystem that was built for Flash storage and is much more efficient than ext4.  The only issue is that the <a href="http://forum.xda-developers.com/galaxy-s4-sprint/development/rom-5-0google-play-edition-lrx219-12-24-t2982384">Google Play Edition ROM</a> doesn&#8217;t support F2FS yet.  To get the best of both worlds I had to change to a <a href="http://forum.xda-developers.com/galaxy-s4/i9505-orig-develop/exclusive-antaresone-alucard24-s-t3066696">unified CM 12.1 ROM for jflte</a>, with the added bonus of moving to android <a href="http://forum.xda-developers.com/galaxy-s4/i9505-orig-develop/exclusive-antaresone-alucard24-s-t3066696">5.1.1</a>, and change a setting in the /META-INF/com/google/android/updater-script so that the L720 uses the GSM network instead of CDMA.</p>
 
 
-<p>I would imagine that any jflte unified ROM would work, I have yet to try it.  To also get the F2FS system working, I updated to <a href="https://www.androidfilehost.com/?fid=95916177934546651">TWRP 2.8.6.0</a> as per the instructions in the <a href="http://forum.xda-developers.com/galaxy-s4/i9505-orig-develop/exclusive-antaresone-alucard24-s-t3066696">AntaresOne CM12.1</a> forum.  This ROM is working well for me, tho I did experience an error with google services that is preventing the device from syncing mail and calender items right now.  I will need to re-flash things and see if I can get it sorted out.  The last thing I need to do is copy all the files from the /data partition to the external SD card and then reformat it as F2FS.</p>
+<p>I am also running the <a href="http://forum.xda-developers.com/galaxy-s4/i9505-develop/kernel-hulk-kernel-v1-stweaks-based-t3050469">Hulk Kernel</a>.  This gives me F2FS support and some additional features that are useful to me.  I have found it quite stable and it can be installed for TouchWiz systems also which is a huge benefit to anyone using that system.</p>
+
+
+<p>I would imagine that any <a href="http://forum.xda-developers.com/galaxy-s4/#romList">jflte unified ROM</a> would work, I have yet to try it.  To also get the F2FS system working, I updated to <a href="https://www.androidfilehost.com/?fid=95916177934546651">TWRP 2.8.6.0</a> as per the instructions in the <a href="http://forum.xda-developers.com/galaxy-s4/i9505-orig-develop/exclusive-antaresone-alucard24-s-t3066696">AntaresOne CM12.1</a> forum.  This ROM is working well for me, tho I did experience an error with google services that is preventing the device from syncing mail and calender items right now.  I will need to re-flash things and see if I can get it sorted out.  The last thing I need to do is copy all the files from the /data partition to the external SD card and then reformat it as F2FS.</p>
 
 
 <p>Once this is done, I will document the final results.</p>
